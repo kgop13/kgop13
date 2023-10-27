@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keerti's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/c2171a0783.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- MENU NAVIGATION -->
+    <!-- DESKTOP MENU -->
+    <nav id="desktop-nav">
+        <div class = "logo"> Keerti Gopal</div>
+        <div>
+            <ul class = "nav-links">
+                <li><a class='active' href="home.html"> home </a></li>
+                <li><a class='active' href="aboutme.html"> about me </a></li>
+                <li><a class='active' href="words.html"> words </a></li>
+                <li><a class='active' href="images.html"> images </a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- MOBILE MENU -->
+    <nav id= "hamburger-nav">
+        <a class="logo link" href="home.html">Keerti Gopal</a>
+        <div class = "hamburger-menu">
+            <div class = "hamburger-icon" onclick = "toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div>
+                <ul class = "menu-links">
+                    <li><a class='active' href="aboutme.html" onclick = "toggleMenu()"> about me </a></li>
+                    <li><a class='active' href="words.html" onclick = "toggleMenu()"> words </a></li>
+                    <li><a class='active' href="images.html" onclick = "toggleMenu()"> images </a></li>
+            </div> 
+        </div>
+    </nav>
+    <div class = "bio"> images
+    </div>
+
+<!--IMAGE MENU-->
+<div class="row">
+    <div class="column">
+        <figure><a href="bwportraits.html"><img src="assets/bwportraits/holly.jpg" alt="Yang Kang hits the juul"style="width:100%"/></a><figcaption class = "caption"> portraits in black and white </figcaption>
+        </figure>
+    </div>
+    <div class="column">
+        <figure><a href="portraits.html"><img src="assets/laura.jpg" alt="Laura on the dock."style="width:100%"/></a><figcaption class = "caption">portraits in color</figcaption>
+        </figure>
+    </div>
+    <div class="column">
+        <figure><a href="scenes.html"><img src="assets/scenes/streetart.jpeg" alt="street art in Chennai."style="width:100%"/></a><figcaption class = "caption" >scenes</figcaption>
+        </figure>
+    </div>
+</div>    
+
+<!-- social links -->
+<div class = "icons"> 
+    <a class = "socialIcons" target = "blank" href='https://twitter.com/keerti_gopal' ><i class="fab fa-twitter" style="font-size: 2em; color: rgb(90, 90, 90);"></i></a>
+    <a class = "socialIcons" target = "blank" href='https://www.instagram.com/keertiphotos/?hl=en'><i class='fab fa-instagram' style="font-size: 2em; color: rgb(90, 90, 90);"></i></a>
+    <span >
+  </div>
+  
+  </body>

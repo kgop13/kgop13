@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keerti's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/c2171a0783.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- MENU NAVIGATION -->
+    <!-- DESKTOP MENU -->
+    <nav id="desktop-nav">
+        <a class="logo link" href="home.html">Keerti Gopal</a>        <div>
+            <ul class = "nav-links">
+                <li><a class='active' href="home.html"> home </a></li>
+                <li><a class='active' href="aboutme.html"> about me </a></li>
+                <li><a class='active' href="words.html"> words </a></li>
+                <li><a class='active' href="images.html"> images </a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- MOBILE MENU -->
+    <nav id= "hamburger-nav">
+        <div class = "logo"> Keerti Gopal</div>
+        <div class = "hamburger-menu">
+            <div class = "hamburger-icon" onclick = "toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div>
+                <ul class = "menu-links">
+                    <li><a class='active' href="aboutme.html" onclick = "toggleMenu()"> about me </a></li>
+                    <li><a class='active' href="words.html" onclick = "toggleMenu()"> words </a></li>
+                    <li><a class='active' href="images.html" onclick = "toggleMenu()"> images </a></li>
+            </div> 
+        </div>
+    </nav>
+    
+    <p class = h2>portraits in color</p>
+    <br>
+    <br>
+    <figure class = "center"><img src="assets/portraits/laura.jpg" alt="face in golden hour"style="width:100%"/><figcaption class = "caption center"> Laura </figcaption>
+    </figure>
+    <figure class = "center"><img src="assets/portraits/siaoken.jpeg" alt="boy with pink hair sitting in front of ocean with head in hand"style="width:100%"/><figcaption class = "caption center"> Si Aoken </figcaption>
+    </figure>
+    <figure class = "center"><img src="assets/portraits/melissa.jpeg" alt="woman smoking on front steps"style="width:100%"/><figcaption class = "caption center"> Melissa </figcaption>
+    </figure>
+    <figure class = "center"><img src="assets/portraits/haohao.jpg" alt="man laughing with hand by face"style="width:100%"/><figcaption class = "caption center"> Hao Hao </figcaption>
+    </figure>
+    <figure class = "center"><img src="assets/portraits/holly.jpg" alt="woman smiling on busy street"style="width:100%"/><figcaption class = "caption center"> Holly </figcaption>
+    </figure>
+    <figure class = "center"><img src="assets/portraits/maran.jpeg" alt="man sits on blue plastic chair and smiles"style="width:60%"/><figcaption class = "caption center"> Shi Maran (Uncle Shi) </figcaption>
+    </figure>
+    <figure class = "center"><img src="assets/portraits/louisa.jpeg" alt="woman standing with umbrella on a street with red lighting"style="width:60%"/><figcaption class = "caption center"> Louisa </figcaption>
+    </figure>
+
+
+  
+</body>
