@@ -42,6 +42,8 @@ img {
 .h2 {
     font-size: 1.5rem;
     text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .caption {
@@ -58,7 +60,7 @@ a,
 
 /* DESKTOP NAV */
 
-nav,
+nav, 
 .nav-links {
     display: flex;
     background-color: white;
@@ -67,7 +69,7 @@ nav,
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 9vh;
 }
 
 .nav-links {
@@ -97,6 +99,9 @@ a:hover {
 
 .logo {
     font-size: 2rem;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 0;
 }
 
 .logo:hover {
@@ -104,9 +109,9 @@ a:hover {
 }
 
 
-/* HAMBURGER MENU */
+/* MOBILE MENU */
 
-#hamburger-nav {
+#mobile-nav {
     display: none;
 }
 
@@ -156,7 +161,7 @@ a:hover {
     list-style: none;
 }
 
-.menu-links-open {
+.menu-links.open {
     max-height: 300px;
 }
 
@@ -172,15 +177,15 @@ a:hover {
     transform: rotate (-45deg) translate (10px, -5px);
 }
 
-.hamburger-icon.open span:first-child {
+.hamburger-icon span:first-child {
     transform: none;
 }
 
-.hamburger-icon.open span:nth-child(2) {
+.hamburger-icon span:nth-child(2) {
     opacity: 1;
 }
 
-.hamburger-icon.open span:last-child {
+.hamburger-icon span:last-child {
     transform: none;
 }
 
@@ -206,7 +211,7 @@ a:hover {
   max-width: 1000px;
   position: relative;
   margin: auto;
-  padding-top: 20px;
+  padding-top: 3px;
   padding-bottom: 20px;
 }
 

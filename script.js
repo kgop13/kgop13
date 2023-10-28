@@ -1,14 +1,16 @@
+
+//hamburger menu
 function toggleMenu() {
-    const menu = document.querySelector(".menu-links");
-    const icon = document.querySelector (".hamburger-icon");
-    menu.classslist.toggle("open");
-    icon.classlist.toggle("open");
+  const menu = document.querySelector(".menu-links");
+  const icon = document.querySelector (".hamburger-icon");
+  menu.classlist.toggle("open");
+  icon.classlist.toggle("open");
 }
 
 //Slideshow
 
 let slideIndex = 1;
-showSlides(slideIndex);
+  showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
@@ -35,3 +37,4 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
