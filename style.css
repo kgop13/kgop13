@@ -29,8 +29,15 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    padding-right: 0%;
+    text-align: center;
+  }
+
+  .center-image {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 5%;
+    padding-left: 5%;
     text-align: center;
   }
 
@@ -195,7 +202,8 @@ a:hover {
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 40px;
-    text-align: center;
+    text-align: left;
+    float: right;
     font-size: 1rem;
     color: black;
     text-decoration: none;
@@ -363,4 +371,10 @@ a:hover {
     content: "";
     clear: both;
     display: table;
+  }
+ 
+/* wrap text around headshot */
+ .wrap {
+   float: right; 
+   margin: 5px;
   }
